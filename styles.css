@@ -1,0 +1,112 @@
+/*CSS PROPERTIES IN EXTERNAL STYLE SHEET*/
+
+/* Universal Reset */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Static */
+#header {
+    position: static;
+    background-color:antiquewhite;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Fixed + Z-index */
+#title {
+    position: fixed;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color:black;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+/* Relative */
+.products-pic {
+    position: relative;
+}
+
+/* Absolute */
+.product-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 100px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.product-info {
+    position: absolute;
+    margin-left: 750px;
+    margin-right: 30px;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    hyphens: auto;
+    line-break: normal;
+}
+
+/* Sticky */
+#product-header {
+    position: sticky;
+    padding: 5px 100px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding-top:30px;
+}
+
+hr {
+    height: 3px;
+    background-color: #999;
+}
+
+img {
+    margin-left: 90px;
+    width: 600px;
+    height: auto;
+    display:block;
+}
+
+.product-info h2 {
+    text-align: left;
+    padding: 10px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+footer {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+
+
+
+
